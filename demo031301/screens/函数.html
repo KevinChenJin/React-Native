@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        /*        function contxt() //定义函数
+                {
+                    alert("哈哈，调用函数了!");
+                }*/
+        function Wopen() {
+            window.open('http://www.baidu.com', '_blank', 'width=900,height=800,menubar=no,toolbar=no, status=no,scrollbars=yes');
+        }
+        function openWindow() {
+            // 新窗口打开时弹出确认框，是否打开
+            var myOpen = confirm("是否打开？");
+            if (myOpen == true) {
+                document.write("打开");
+            } else {
+                document.write("关闭");
+            }
+
+            // 通过输入对话框，确定打开的网址，默认为 http：//www.imooc.com/
+
+            prompt("网址","http：//www.imooc.com/");
+            window.open("http：//www.imooc.com/", 'width=500,height=400,menuber=no,toolbar=no');
+        }
+
+        //打开的窗口要求，宽400像素，高500像素，无菜单栏、无工具栏。
+
+    </script>
+</head>
+<body>
+<form>
+    <input type="button" value="点击我" onclick="  contxt()   "/>
+    <input name="button" type="button" onClick="Wopen()" value="点击我，打开新窗口!"/>
+    <input type="button" value="新窗口打开网站" onclick="openWindow()" />
+</form>
+</body>
+</html>

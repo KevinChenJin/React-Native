@@ -16,4 +16,4 @@ import GeolocationDemo from './screens/GeolocationDemo';
 import PieChartBasic from './screens/PieChartBasic';
 import VolumeDemo from './screens/VolumeDemo';
 
-AppRegistry.registerComponent(appName, () => VolumeDemo);
+AppRegistry.registerComponent(appName, () => Register);

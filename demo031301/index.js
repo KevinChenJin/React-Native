@@ -15,6 +15,5 @@ import NetworkRequest from './screens/NetworkRequest';
 import GeolocationDemo from './screens/GeolocationDemo';
 import PieChartBasic from './screens/PieChartBasic';
 import VolumeDemo from './screens/VolumeDemo';
-import Parent2Child from './screens/Parent2Child';
 
-AppRegistry.registerComponent(appName, () => Parent2Child);
+AppRegistry.registerComponent(appName, () => Register);

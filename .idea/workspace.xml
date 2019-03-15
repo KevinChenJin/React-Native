@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91f9f4ea-9940-4a6f-bd01-44ed51f7ddcd" name="Default" comment="修复已知bug">
+    <list default="true" id="91f9f4ea-9940-4a6f-bd01-44ed51f7ddcd" name="Default" comment="测试代码-切换APP界面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo031301/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo031301/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo031301/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+            <state relative-caret-position="367">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#20#61#0" expanded="true" />
@@ -48,11 +47,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flux.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo031301/src/img/flux.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="login1_mark.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo031301/src/img/login1_mark.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file leaf-file-name="Register.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo031301/screens/Register.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="800">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#143#182#0" expanded="true" />
@@ -141,7 +159,7 @@
               <item name="demo0315" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo0315" type="462c0819:PsiDirectoryNode" />
               <item name="demo031301" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,7 +202,7 @@
       <updated>1552620964113</updated>
       <workItem from="1552620965266" duration="1245000" />
       <workItem from="1552628810581" duration="940000" />
-      <workItem from="1552629841319" duration="101000" />
+      <workItem from="1552629841319" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="修复已知bug">
       <created>1552629611556</created>
@@ -200,24 +218,39 @@
       <option name="project" value="LOCAL" />
       <updated>1552629628902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试代码-切换APP界面">
+      <created>1552630176169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552630176169</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试代码-切换APP界面">
+      <created>1552630264708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552630264708</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2286000" />
+    <option name="totallyTimeSpent" value="3377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1278" height="984" extended-state="0" />
+    <frame x="1" y="0" width="1278" height="984" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22177419" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.25619835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,7 +270,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修复已知bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复已知bug" />
+    <MESSAGE value="测试代码-切换APP界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试代码-切换APP界面" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -335,7 +369,7 @@
     <entry file="file://$PROJECT_DIR$/demo031301/screens/Register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#143#182#0" expanded="true" />
@@ -345,14 +379,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo031301/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        <state relative-caret-position="367">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#20#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo031301/src/img/flux.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo031301/src/img/login1_mark.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

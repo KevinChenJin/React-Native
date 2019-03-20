@@ -15,5 +15,7 @@ import NetworkRequest from './screens/NetworkRequest';
 import GeolocationDemo from './screens/GeolocationDemo';
 import PieChartBasic from './screens/PieChartBasic';
 import VolumeDemo from './screens/VolumeDemo';
+import ReduxDemo from './screens/ReduxDemo';
+import srrowFunDemo from './screens/srrowFunDemo';
 
-AppRegistry.registerComponent(appName, () => WebViewDemo);
+AppRegistry.registerComponent(appName, () => srrowFunDemo);
